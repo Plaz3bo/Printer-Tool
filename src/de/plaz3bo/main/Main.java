@@ -20,7 +20,7 @@ public class Main {
         Path p = Paths.get(System.getProperty("user.dir"),"src","de","plaz3bo","files","Teams.ini");
         Reader r = new Reader(p.toString());
         r.fillTeams();
-        System.out.println(r);
+        System.out.println(r); 
 
     }
 }
