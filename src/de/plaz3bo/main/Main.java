@@ -18,7 +18,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Reader r = new Reader("C://Users//KrostaA//Documents//NetBeansProjects//Printer Tool//src//de//plaz3bo//files//TeamConfig//Teams.in");
+        Reader r = new Reader("C://Users//KrostaA//Documents//NetBeansProjects//Printer Tool//src//de//plaz3bo//files//TeamConfig//Teams.ini");
         r.fillTeams();
 
     }
