@@ -15,13 +15,11 @@ import java.util.logging.Logger;
  * @author KrostaA
  */
 public class Main {
+
     public static void main(String[] args) {
-        try {
-            Reader r = new Reader("C://Users//KrostaA//Documents//NetBeansProjects//Printer Tool//src//de//plaz3bo//files//Teams.ini");
-        } catch (IOException ex) {
-            
-            System.err.println("Fehler beim Objekt erstellen");
-        }
-        
+
+        Reader r = new Reader("C://Users//KrostaA//Documents//NetBeansProjects//Printer Tool//src//de//plaz3bo//files//TeamConfig//Teams.in");
+        r.fillTeams();
+
     }
 }
