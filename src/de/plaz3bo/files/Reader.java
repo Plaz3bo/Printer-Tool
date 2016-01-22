@@ -39,18 +39,18 @@ public class Reader {
         br = new BufferedReader(fileReader);
         //System.out.println(br.readLine());
 int i = 0;
-        teams = new String[(int) br.lines().count()];
+        teams = new String[2];
         String s = br.readLine();
         while(s != null){
             teams[i] = s;
-            System.out.println(br.readLine());
+            //System.out.println(br.readLine());
              s = br.readLine();
             i++;
         }
         
 
                 
-                System.out.println(s);
+                
 
 //            } catch (IOException ex) {
 //                System.err.println("Fehler beim befüllen des Teamarrays in der Klasse Reader");
@@ -61,7 +61,7 @@ int i = 0;
 
     @Override
     public String toString() {
-        return teams[1];
+        return teams[0];
     }
 
 }
